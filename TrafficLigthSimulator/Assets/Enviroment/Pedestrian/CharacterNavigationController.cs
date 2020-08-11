@@ -12,7 +12,7 @@ public class CharacterNavigationController : MonoBehaviour
     public bool reachedDestination;
 
     private Vector3 lastPosition;
-    Vector3 velocity;
+    public Vector3 velocity;
 
     private void Awake()
     {
@@ -58,4 +58,13 @@ public class CharacterNavigationController : MonoBehaviour
         reachedDestination = false;
     }
     
+    public float getMovementSpeed()
+    {
+        return this.movementSpeed;
+    }
+
+    public void setMovementSpeed(float newSpeed)
+    {
+        this.movementSpeed = newSpeed;
+    }
 }
