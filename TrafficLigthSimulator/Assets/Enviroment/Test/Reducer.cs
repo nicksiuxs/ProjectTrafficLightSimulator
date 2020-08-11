@@ -22,7 +22,7 @@ public class Reducer : MonoBehaviour
         {
             other.GetComponent<CharacterNavigationController>().setMovementSpeed(0f);
         }
-        if (trafficLight.GetComponent<TrafficLightController>().isRed == false)
+        if (trafficLight.GetComponent<TrafficLightController>().isRed == false && trafficLight.GetComponent<TrafficLightController>().isYellow == false )
         {
             other.GetComponent<CharacterNavigationController>().setMovementSpeed(10f);
         }
