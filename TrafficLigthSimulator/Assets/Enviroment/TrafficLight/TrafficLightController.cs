@@ -8,7 +8,7 @@ public class TrafficLightController : MonoBehaviour
     public GameObject yellow;
     public GameObject green;
 
-    public bool isActive = false;
+    bool isActive = false;
 
     public float durationRed;
     public float durationYellow;
@@ -94,6 +94,5 @@ public class TrafficLightController : MonoBehaviour
     {
         return this.isActive;
     }
-
 
 }
