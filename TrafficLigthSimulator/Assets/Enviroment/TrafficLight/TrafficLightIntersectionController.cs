@@ -43,7 +43,7 @@ public class TrafficLightIntersectionController : MonoBehaviour
             tl4 = true;
         }
 
-        if (!trafficLight3.getIsActive() && !trafficLight4.getIsActive() && tl4)
+        if (!trafficLight3.getIsActive() && !trafficLight4.getIsActive() && !trafficLight2.getIsActive() && tl4)
         {
             trafficLight1.setIsActive(true);
             tl1 = true;
