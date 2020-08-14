@@ -108,7 +108,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2195478655944467738
 Transform:
   m_ObjectHideFlags: 0
@@ -360,7 +360,6 @@ MonoBehaviour:
   red: {fileID: 2195478655944467739}
   yellow: {fileID: 2195478655935091608}
   green: {fileID: 2195478656230312843}
-  zoneReducer: {fileID: 0}
   isActive: 0
   durationRed: 5
   durationYellow: 2
@@ -369,6 +368,7 @@ MonoBehaviour:
   isYellow: 0
   isGreen: 0
   reverse: 0
+  timeInseconds: 0
 --- !u!1 &2195478657157788947
 GameObject:
   m_ObjectHideFlags: 0

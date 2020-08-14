@@ -8,9 +8,8 @@ public class TrafficLightController : MonoBehaviour
     public GameObject yellow;
     public GameObject green;
 
-    public GameObject zoneReducer;
+    public bool isActive = false;
 
-    public bool isActive;
     public float durationRed;
     public float durationYellow;
     public float durationGreen;
@@ -20,68 +19,81 @@ public class TrafficLightController : MonoBehaviour
     public bool isGreen;
     public bool reverse;
 
+    public float timeInseconds;
+
     void Start()
     {
         isRed = true;
         reverse = false;
-        StartCoroutine("changeLight");
     }
 
     void Update()
     {
+        timeInseconds += Time.deltaTime;
 
-    }
-
-    public IEnumerator changeLight()
-    {
-        while (true)
+        if (isRed && (timeInseconds > durationRed))
         {
-            if (isRed)
+            timeInseconds = 0f;
+            if (isActive)
             {
-                red.SetActive(true);
-                yellow.SetActive(false);
-                green.SetActive(false);
-                yield return new WaitForSeconds(durationRed);
                 isRed = false;
+                red.SetActive(false);
+
                 isYellow = true;
-            }
-
-            if (isYellow)
-            {
-
-                red.SetActive(false);
                 yellow.SetActive(true);
-                green.SetActive(false);
-                yield return new WaitForSeconds(durationYellow);
-                isYellow = false;
-                if (!reverse)
-                {
-                    isGreen = true;
-                }
-                else
-                {
-                    isRed = true;
-                    reverse = false;
-                }
-
             }
-            if (isGreen)
+        }
+
+        if (isYellow && (timeInseconds > durationYellow))
+        {
+            timeInseconds = 0f;
+
+            isYellow = false;
+            yellow.SetActive(false);
+
+            if (!reverse)
             {
-
-                red.SetActive(false);
-                yellow.SetActive(false);
+                isGreen = true;
                 green.SetActive(true);
-                yield return new WaitForSeconds(durationGreen);
-                isGreen = false;
-                if (isRed == false && isYellow == false)
-                {
-                    isYellow = true;
-                    reverse = true;
-                }
-
             }
+
+            else
+            {
+                reverse = false;
+
+                isRed = true;
+                red.SetActive(true);
+
+                //Pendiente de is active
+                isActive = false;
+            }
+
+
+        }
+        if (isGreen && (timeInseconds > durationGreen))
+        {
+            timeInseconds = 0f;
+
+            green.SetActive(false);
+            isGreen = false;
+
+            reverse = true;
+
+            isYellow = true;
+            yellow.SetActive(true);
 
         }
     }
+
+    public void setIsActive(bool isActive)
+    {
+        this.isActive = isActive;
+    }
+
+    public bool getIsActive()
+    {
+        return this.isActive;
+    }
+
 
 }
