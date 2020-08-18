@@ -14,39 +14,44 @@ public class Reducer : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        random = Random.Range(1, 4);
-        switch (random)
+        if (other.gameObject.CompareTag("Car"))
         {
-            case 1:
-                other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint1;
-                break;
-            case 2:
-                other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint2;
-                break;
-            case 3:
-                other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint3;
-                break;
-            case 4:
-                other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint4;
-                break;
-        }
+            random = Random.Range(1, 4);
+            switch (random)
+            {
+                case 1:
+                    other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint1;
+                    break;
+                case 2:
+                    other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint2;
+                    break;
+                case 3:
+                    other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint3;
+                    break;
+                case 4:
+                    other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint4;
+                    break;
+            }
 
-        if (trafficLight.GetComponent<TrafficLightController>().isRed == true)
-        {
-            other.GetComponent<CharacterNavigationController>().setMovementSpeed(0f);
+            if (trafficLight.GetComponent<TrafficLightController>().isRed == true)
+            {
+                other.GetComponent<CharacterNavigationController>().setMovementSpeed(0f);
+            }
         }
     }
 
     private void OnTriggerStay(Collider other)
     {
-
-        if (trafficLight.GetComponent<TrafficLightController>().isRed == true)
+        if (other.CompareTag("Car"))
         {
-            other.GetComponent<CharacterNavigationController>().setMovementSpeed(0f);
-        }
-        if (trafficLight.GetComponent<TrafficLightController>().isRed == false && trafficLight.GetComponent<TrafficLightController>().isYellow == false)
-        {
-            other.GetComponent<CharacterNavigationController>().setMovementSpeed(10f);
+            if (trafficLight.GetComponent<TrafficLightController>().isRed == true)
+            {
+                other.GetComponent<CharacterNavigationController>().setMovementSpeed(0f);
+            }
+            if (trafficLight.GetComponent<TrafficLightController>().isRed == false && trafficLight.GetComponent<TrafficLightController>().isYellow == false)
+            {
+                other.GetComponent<CharacterNavigationController>().setMovementSpeed(10f);
+            }
         }
     }
 }

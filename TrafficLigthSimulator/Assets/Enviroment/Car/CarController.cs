@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    void OnTriggerEnter(Collider other)
     {
-        
+        if (other.CompareTag("Car"))
+        {
+            other.GetComponent<CharacterNavigationController>().setMovementSpeed(0f);
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerExit(Collider other)
     {
-        
+        if (other.CompareTag("Car"))
+        {
+            other.GetComponent<CharacterNavigationController>().setMovementSpeed(5f);
+        }
+
     }
 }
