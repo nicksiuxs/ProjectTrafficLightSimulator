@@ -6938,6 +6938,66 @@ PrefabInstance:
       propertyPath: waypoint1
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 850722357513729409, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint1
+      value: 
+      objectReference: {fileID: 1168651023}
+    - target: {fileID: 850722357513729409, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint2
+      value: 
+      objectReference: {fileID: 952290251}
+    - target: {fileID: 850722357513729409, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint3
+      value: 
+      objectReference: {fileID: 1868820673}
+    - target: {fileID: 850722357513729409, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint4
+      value: 
+      objectReference: {fileID: 1403081209}
+    - target: {fileID: 850722357852799577, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint1
+      value: 
+      objectReference: {fileID: 1689018532}
+    - target: {fileID: 850722357852799577, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint2
+      value: 
+      objectReference: {fileID: 975261106}
+    - target: {fileID: 850722357852799577, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint3
+      value: 
+      objectReference: {fileID: 2081212202}
+    - target: {fileID: 850722357852799577, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint4
+      value: 
+      objectReference: {fileID: 129725632}
+    - target: {fileID: 850722358017588029, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint1
+      value: 
+      objectReference: {fileID: 1055004794}
+    - target: {fileID: 850722358017588029, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint2
+      value: 
+      objectReference: {fileID: 998278860}
+    - target: {fileID: 850722358017588029, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint3
+      value: 
+      objectReference: {fileID: 1337127030}
+    - target: {fileID: 850722358017588029, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint4
+      value: 
+      objectReference: {fileID: 426915369}
     - target: {fileID: 5588842695731988406, guid: e540373ad79476c498255602e046f6ad,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11764,6 +11824,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1254744322}
     m_Modifications:
+    - target: {fileID: 850722357513729409, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint1
+      value: 
+      objectReference: {fileID: 700553578}
+    - target: {fileID: 850722357513729409, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint2
+      value: 
+      objectReference: {fileID: 1965988689}
+    - target: {fileID: 850722357513729409, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint3
+      value: 
+      objectReference: {fileID: 1645695658}
+    - target: {fileID: 850722357513729409, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint4
+      value: 
+      objectReference: {fileID: 1360235667}
+    - target: {fileID: 850722357852799577, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint1
+      value: 
+      objectReference: {fileID: 188081680}
+    - target: {fileID: 850722357852799577, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint2
+      value: 
+      objectReference: {fileID: 386958325}
+    - target: {fileID: 850722357852799577, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint3
+      value: 
+      objectReference: {fileID: 190266290}
+    - target: {fileID: 850722357852799577, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint4
+      value: 
+      objectReference: {fileID: 588288674}
+    - target: {fileID: 850722358017588029, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint1
+      value: 
+      objectReference: {fileID: 599287817}
+    - target: {fileID: 850722358017588029, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint2
+      value: 
+      objectReference: {fileID: 232532880}
+    - target: {fileID: 850722358017588029, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint3
+      value: 
+      objectReference: {fileID: 33314072}
+    - target: {fileID: 850722358017588029, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint4
+      value: 
+      objectReference: {fileID: 1453227696}
     - target: {fileID: 5588842695731988406, guid: e540373ad79476c498255602e046f6ad,
         type: 3}
       propertyPath: m_LocalPosition.x
