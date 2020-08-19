@@ -29297,6 +29297,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1762458853}
     m_Modifications:
+    - target: {fileID: 850722357513729409, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint1
+      value: 
+      objectReference: {fileID: 1242794944}
+    - target: {fileID: 850722357513729409, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint2
+      value: 
+      objectReference: {fileID: 111567111}
+    - target: {fileID: 850722357513729409, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint3
+      value: 
+      objectReference: {fileID: 1663691046}
+    - target: {fileID: 850722357513729409, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint4
+      value: 
+      objectReference: {fileID: 1524129990}
+    - target: {fileID: 850722357852799577, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint1
+      value: 
+      objectReference: {fileID: 7536316}
+    - target: {fileID: 850722357852799577, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint2
+      value: 
+      objectReference: {fileID: 1873366170}
+    - target: {fileID: 850722357852799577, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint3
+      value: 
+      objectReference: {fileID: 664424313}
+    - target: {fileID: 850722357852799577, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint4
+      value: 
+      objectReference: {fileID: 1254869603}
+    - target: {fileID: 850722358017588029, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint1
+      value: 
+      objectReference: {fileID: 1006650646}
+    - target: {fileID: 850722358017588029, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint2
+      value: 
+      objectReference: {fileID: 1983726215}
+    - target: {fileID: 850722358017588029, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint3
+      value: 
+      objectReference: {fileID: 19920714}
+    - target: {fileID: 850722358017588029, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: waypoint4
+      value: 
+      objectReference: {fileID: 866253801}
     - target: {fileID: 5588842695731988406, guid: e540373ad79476c498255602e046f6ad,
         type: 3}
       propertyPath: m_LocalPosition.x
