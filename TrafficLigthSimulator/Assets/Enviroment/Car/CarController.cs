@@ -14,11 +14,19 @@ public class CarController : MonoBehaviour
 
     }
 
+    void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Car"))
+        {
+            other.GetComponent<CharacterNavigationController>().setMovementSpeed(0f);
+        }
+    }
+
     void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Car"))
         {
-            other.GetComponent<CharacterNavigationController>().setMovementSpeed(5f);
+            other.GetComponent<CharacterNavigationController>().setMovementSpeed(10f);
         }
 
     }
