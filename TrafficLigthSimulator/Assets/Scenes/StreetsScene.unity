@@ -3886,6 +3886,51 @@ PrefabInstance:
       propertyPath: waypoint6
       value: 
       objectReference: {fileID: 265356104}
+    - target: {fileID: 3385018659242873526, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385018659595199883, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385018659595199883, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385018659940415957, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385018660399012319, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385018660399012319, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498708386588709406, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498708386588709406, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498708387579271543, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.39
+      objectReference: {fileID: 0}
     - target: {fileID: 3498708387713808790, guid: 84e70837747fb8748a2f033ca216f5ec,
         type: 3}
       propertyPath: m_Name
@@ -3945,6 +3990,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498708387847005475, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498708387847005475, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498708388053809533, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498708388053809533, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.97
       objectReference: {fileID: 0}
     - target: {fileID: 4222075098510550623, guid: 84e70837747fb8748a2f033ca216f5ec,
         type: 3}
@@ -7318,6 +7383,26 @@ PrefabInstance:
       propertyPath: waypoint4
       value: 
       objectReference: {fileID: 426915369}
+    - target: {fileID: 5588842695193867635, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695193867635, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695566248983, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695566248983, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.88
+      objectReference: {fileID: 0}
     - target: {fileID: 5588842695731988406, guid: e540373ad79476c498255602e046f6ad,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7377,6 +7462,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TrafficLightTIntersection (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070955, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070955, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699239979893251, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699239979893251, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240317941211, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240317941211, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240549780671, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240549780671, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e540373ad79476c498255602e046f6ad, type: 3}
@@ -10112,25 +10237,40 @@ PrefabInstance:
       propertyPath: waypoint4
       value: 
       objectReference: {fileID: 721642807}
+    - target: {fileID: 5588842695193867635, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695193867635, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.82
+      objectReference: {fileID: 0}
     - target: {fileID: 5588842695566248983, guid: e540373ad79476c498255602e046f6ad,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.71
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695566248983, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.04
       objectReference: {fileID: 0}
     - target: {fileID: 5588842695566248985, guid: e540373ad79476c498255602e046f6ad,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.89
+      value: 0.83
       objectReference: {fileID: 0}
     - target: {fileID: 5588842695566248985, guid: e540373ad79476c498255602e046f6ad,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.82
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5588842695566248985, guid: e540373ad79476c498255602e046f6ad,
         type: 3}
       propertyPath: m_Size.z
-      value: 0.25
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 5588842695731988406, guid: e540373ad79476c498255602e046f6ad,
         type: 3}
@@ -10191,6 +10331,61 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TrafficLightTIntersection
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070949, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070949, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070949, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070955, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070955, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699239979893251, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699239979893251, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240317941211, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240317941211, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240549780671, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240549780671, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.41
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e540373ad79476c498255602e046f6ad, type: 3}
@@ -12281,6 +12476,26 @@ PrefabInstance:
       propertyPath: waypoint4
       value: 
       objectReference: {fileID: 1453227696}
+    - target: {fileID: 5588842695193867635, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695193867635, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695566248983, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695566248983, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5588842695731988406, guid: e540373ad79476c498255602e046f6ad,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12340,6 +12555,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TrafficLightTIntersection (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070955, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070955, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699239979893251, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699239979893251, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240317941211, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240317941211, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240549780671, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240549780671, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e540373ad79476c498255602e046f6ad, type: 3}
@@ -12621,6 +12876,56 @@ PrefabInstance:
       propertyPath: waypoint6
       value: 
       objectReference: {fileID: 1310279855}
+    - target: {fileID: 3385018659242873526, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385018659595199883, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385018659595199883, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385018659940415957, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385018660399012319, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385018660399012319, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498708386588709406, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498708386588709406, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498708387579271543, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498708387579271543, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.85
+      objectReference: {fileID: 0}
     - target: {fileID: 3498708387713808790, guid: 84e70837747fb8748a2f033ca216f5ec,
         type: 3}
       propertyPath: m_Name
@@ -12680,6 +12985,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498708387847005475, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498708387847005475, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498708388053809533, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498708388053809533, guid: 84e70837747fb8748a2f033ca216f5ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.71
       objectReference: {fileID: 0}
     - target: {fileID: 4222075098510550623, guid: 84e70837747fb8748a2f033ca216f5ec,
         type: 3}
@@ -21926,6 +22251,26 @@ PrefabInstance:
       propertyPath: waypoint4
       value: 
       objectReference: {fileID: 231018493}
+    - target: {fileID: 5588842695193867635, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695193867635, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695566248983, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695566248983, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.88
+      objectReference: {fileID: 0}
     - target: {fileID: 5588842695731988406, guid: e540373ad79476c498255602e046f6ad,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21985,6 +22330,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TrafficLightTIntersection
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070955, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070955, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699239979893251, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699239979893251, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240317941211, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240317941211, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240549780671, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.68
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e540373ad79476c498255602e046f6ad, type: 3}
@@ -24216,15 +24596,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0656a7e5759ccaf40a463b72bbf3a345, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.4
+      value: 16.44
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0656a7e5759ccaf40a463b72bbf3a345, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.013984993
+      value: 0.014011
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0656a7e5759ccaf40a463b72bbf3a345, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 28.702
+      value: 28.678
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0656a7e5759ccaf40a463b72bbf3a345, type: 3}
       propertyPath: m_LocalRotation.x
@@ -24244,7 +24624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0656a7e5759ccaf40a463b72bbf3a345, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0656a7e5759ccaf40a463b72bbf3a345, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -29969,6 +30349,41 @@ PrefabInstance:
       propertyPath: waypoint4
       value: 
       objectReference: {fileID: 866253801}
+    - target: {fileID: 5588842695193867635, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695193867635, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695193867645, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695193867645, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695566248983, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695566248983, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695566248985, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.31
+      objectReference: {fileID: 0}
     - target: {fileID: 5588842695731988406, guid: e540373ad79476c498255602e046f6ad,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30007,7 +30422,7 @@ PrefabInstance:
     - target: {fileID: 5588842695731988406, guid: e540373ad79476c498255602e046f6ad,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5588842695731988406, guid: e540373ad79476c498255602e046f6ad,
         type: 3}
@@ -30028,6 +30443,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TrafficLightTIntersection (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070949, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070949, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070955, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070955, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699239979893251, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699239979893251, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240317941211, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240317941211, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240549780671, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e540373ad79476c498255602e046f6ad, type: 3}
@@ -30972,6 +31432,26 @@ PrefabInstance:
       propertyPath: waypoint4
       value: 
       objectReference: {fileID: 139335217}
+    - target: {fileID: 5588842695193867635, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695193867635, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695566248983, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842695566248983, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5588842695731988406, guid: e540373ad79476c498255602e046f6ad,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31031,6 +31511,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TrafficLightTIntersection
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070955, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588842696070070955, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699239979893251, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699239979893251, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240317941211, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240317941211, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240549780671, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050699240549780671, guid: e540373ad79476c498255602e046f6ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e540373ad79476c498255602e046f6ad, type: 3}
