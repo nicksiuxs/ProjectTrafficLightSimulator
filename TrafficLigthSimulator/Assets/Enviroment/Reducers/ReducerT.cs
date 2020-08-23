@@ -7,10 +7,6 @@ public class ReducerT : MonoBehaviour
     public GameObject trafficLight;
     public Waypoint waypoint1;
     public Waypoint waypoint2;
-    public Waypoint waypoint3;
-    public Waypoint waypoint4;
-    public Waypoint waypoint5;
-    public Waypoint waypoint6;
 
     public int random;
 
@@ -18,7 +14,9 @@ public class ReducerT : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Car"))
         {
-            random = Random.Range(1, 6);
+            random = Random.Range(1, 3);
+            Debug.Log(random);
+
             switch (random)
             {
                 case 1:
@@ -28,16 +26,6 @@ public class ReducerT : MonoBehaviour
                     other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint2;
                     break;
                 case 3:
-                    other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint3;
-                    break;
-                case 4:
-                    other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint4;
-                    break;
-                case 5:
-                    other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint5;
-                    break;
-                case 6:
-                    other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint6;
                     break;
             }
 

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &2980292704264311990
+--- !u!114 &9110347112955155185
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,18 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 3385018660399012304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 828d9cc90d033f6489ebdb733d990d2a, type: 3}
+  m_Script: {fileID: 11500000, guid: 66d372fefebd1184090db54d84bfc6e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   trafficLight: {fileID: 3498708387578774871}
   waypoint1: {fileID: 0}
   waypoint2: {fileID: 0}
   waypoint3: {fileID: 0}
-  waypoint4: {fileID: 0}
-  waypoint5: {fileID: 0}
-  waypoint6: {fileID: 0}
   random: 0
---- !u!114 &4222075098510550623
+--- !u!114 &2703215172449283261
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -29,16 +26,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3498708386588709393}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 828d9cc90d033f6489ebdb733d990d2a, type: 3}
+  m_Script: {fileID: 11500000, guid: 66d372fefebd1184090db54d84bfc6e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   trafficLight: {fileID: 3385018659242643094}
   waypoint1: {fileID: 0}
   waypoint2: {fileID: 0}
   waypoint3: {fileID: 0}
-  waypoint4: {fileID: 0}
-  waypoint5: {fileID: 0}
-  waypoint6: {fileID: 0}
   random: 0
 --- !u!1 &3498708387713808790
 GameObject:
@@ -91,7 +85,7 @@ MonoBehaviour:
   trafficLight2: {fileID: 3385018660035990791}
   trafficLight3: {fileID: 3385018660235970905}
   trafficLight4: {fileID: 3385018658744148538}
---- !u!114 &5082551080747920894
+--- !u!114 &5868147467260666012
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100,18 +94,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 3498708387847005484}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 828d9cc90d033f6489ebdb733d990d2a, type: 3}
+  m_Script: {fileID: 11500000, guid: 66d372fefebd1184090db54d84bfc6e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   trafficLight: {fileID: 3385018659594975659}
   waypoint1: {fileID: 0}
   waypoint2: {fileID: 0}
   waypoint3: {fileID: 0}
-  waypoint4: {fileID: 0}
-  waypoint5: {fileID: 0}
-  waypoint6: {fileID: 0}
   random: 0
---- !u!114 &4636143324134471186
+--- !u!114 &2092317449371048797
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,16 +111,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3498708388053809522}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 828d9cc90d033f6489ebdb733d990d2a, type: 3}
+  m_Script: {fileID: 11500000, guid: 66d372fefebd1184090db54d84bfc6e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   trafficLight: {fileID: 3385018659940771317}
   waypoint1: {fileID: 0}
   waypoint2: {fileID: 0}
   waypoint3: {fileID: 0}
-  waypoint4: {fileID: 0}
-  waypoint5: {fileID: 0}
-  waypoint6: {fileID: 0}
   random: 0
 --- !u!1001 &3385018658492739654
 PrefabInstance:

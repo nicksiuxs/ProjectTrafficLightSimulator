@@ -8,7 +8,6 @@ public class Reducer : MonoBehaviour
     public Waypoint waypoint1;
     public Waypoint waypoint2;
     public Waypoint waypoint3;
-    public Waypoint waypoint4;
 
     public int random;
 
@@ -29,7 +28,6 @@ public class Reducer : MonoBehaviour
                     other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint3;
                     break;
                 case 4:
-                    other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint4;
                     break;
             }
 
