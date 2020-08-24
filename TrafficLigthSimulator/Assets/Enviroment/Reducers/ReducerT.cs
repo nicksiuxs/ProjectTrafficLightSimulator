@@ -15,7 +15,7 @@ public class ReducerT : MonoBehaviour
         if (other.gameObject.CompareTag("Car"))
         {
             random = Random.Range(1, 3);
-            Debug.Log(random);
+            // Debug.Log(random);
 
             switch (random)
             {
