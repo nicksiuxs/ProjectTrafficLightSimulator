@@ -8,6 +8,7 @@ public class Sidewalk : MonoBehaviour
     public GameObject tf2;
     public Waypoint waypoint1;
     public Waypoint waypoint2;
+    public Waypoint waypoint3;
     int random;
 
     private void OnTriggerEnter(Collider other)
@@ -19,7 +20,8 @@ public class Sidewalk : MonoBehaviour
 
         if (other.CompareTag("Pedestrian") && tf1.GetComponent<TrafficLightController>().isRed && tf2.GetComponent<TrafficLightController>().isRed)
         {
-            random = Random.Range(1, 3);
+            random = Random.Range(1, 4);
+            Debug.Log(random);
             switch (random)
             {
                 case 1:
@@ -27,6 +29,11 @@ public class Sidewalk : MonoBehaviour
                     break;
                 case 2:
                     other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint2;
+                    break;
+                case 3:
+                    other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint3;
+                    break;
+                case 4:
                     break;
             }
         }
