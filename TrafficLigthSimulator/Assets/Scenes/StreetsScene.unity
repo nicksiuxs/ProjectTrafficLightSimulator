@@ -22487,9 +22487,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 1
+    y: 0.5
+    width: 0.5
+    height: 0.5
   near clip plane: 0.3
   far clip plane: 300
   field of view: 29
@@ -32792,7 +32792,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &1446832460
 AudioListener:
   m_ObjectHideFlags: 0
@@ -32822,8 +32822,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
-    height: 1
+    width: 0.5
+    height: 0.5
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 38
@@ -32835,7 +32835,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 1
+  m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -47124,6 +47124,11 @@ PrefabInstance:
       propertyPath: waypoint3
       value: 
       objectReference: {fileID: 392296105}
+    - target: {fileID: 7441929192269715937, guid: 052b67d2466ab2d4489693565d627422,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 1.23
+      objectReference: {fileID: 0}
     - target: {fileID: 7441929192269715939, guid: 052b67d2466ab2d4489693565d627422,
         type: 3}
       propertyPath: m_Name
