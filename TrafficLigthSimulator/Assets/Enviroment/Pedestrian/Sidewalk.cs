@@ -15,8 +15,7 @@ public class Sidewalk : MonoBehaviour
     {
         Debug.Log("Entre");
 
-        other.GetComponent<CharacterNavigationController>().setMovementSpeed(0f);
-
+        other.GetComponent<PedestrianController>().setMovementSpeed(0f);
 
         if (other.CompareTag("Pedestrian") && tf1.GetComponent<TrafficLightController>().isRed && tf2.GetComponent<TrafficLightController>().isRed)
         {
@@ -25,29 +24,30 @@ public class Sidewalk : MonoBehaviour
             switch (random)
             {
                 case 1:
-                    other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint1;
+                    other.GetComponent<WaypointPedestrianNavigator>().currentWaypoint = waypoint1;
                     break;
                 case 2:
-                    other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint2;
+                    other.GetComponent<WaypointPedestrianNavigator>().currentWaypoint = waypoint2;
                     break;
                 case 3:
-                    other.GetComponent<WaypointNavigator>().currentWaypoint = waypoint3;
+                    other.GetComponent<WaypointPedestrianNavigator>().currentWaypoint = waypoint3;
                     break;
                 case 4:
                     break;
             }
         }
     }
+
     private void OnTriggerStay(Collider other)
     {
         if (tf1.GetComponent<TrafficLightController>().isGreen || tf2.GetComponent<TrafficLightController>().isGreen)
         {
-            other.GetComponent<CharacterNavigationController>().setMovementSpeed(0f);
+            other.GetComponent<PedestrianController>().setMovementSpeed(0f);
         }
 
         if (tf1.GetComponent<TrafficLightController>().isRed && tf2.GetComponent<TrafficLightController>().isRed)
         {
-            other.GetComponent<CharacterNavigationController>().setMovementSpeed(5f);
+            other.GetComponent<PedestrianController>().setMovementSpeed(Random.Range(1f, 2f));
         }
     }
 }
