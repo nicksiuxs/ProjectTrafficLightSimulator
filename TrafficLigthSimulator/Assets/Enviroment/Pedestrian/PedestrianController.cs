@@ -44,8 +44,8 @@ public class PedestrianController : MonoBehaviour
             var velocityMargnitude = velocity.magnitude;
             velocity = velocity.normalized;
 
-            animator.SetFloat("VelX", velocity.x);
-            animator.SetFloat("VelY", velocity.z);
+            animator.SetFloat("vertical", movementSpeed);
+            // animator.SetFloat("horizontal", velocity.z);
         }
 
         lastPosition = transform.position;
