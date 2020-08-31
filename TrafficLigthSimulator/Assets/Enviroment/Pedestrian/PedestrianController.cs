@@ -16,25 +16,26 @@ public class PedestrianController : MonoBehaviour
 
     private void Awake()
     {
-        movementSpeed = Random.Range(1f, 2f);
+        movementSpeed = Random.Range(1f, 1.5f);
         animator = GetComponent<Animator>();
     }
 
     private void Update()
     {
-        if(transform.position != destination)
+        if (transform.position != destination)
         {
             Vector3 destinationDirection = destination - transform.position;
             destinationDirection.y = 0;
             float destinationDistance = destinationDirection.magnitude;
-            if(destinationDistance >= stopDistance)
+            if (destinationDistance >= stopDistance)
             {
                 reachedDestination = false;
                 Quaternion targetRotation = Quaternion.LookRotation(destinationDirection);
                 transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
                 transform.Translate(Vector3.forward * movementSpeed * Time.deltaTime);
             }
-            else{
+            else
+            {
                 reachedDestination = true;
             }
 
@@ -49,13 +50,13 @@ public class PedestrianController : MonoBehaviour
 
         lastPosition = transform.position;
     }
-    
+
     public void SetDestination(Vector3 destination)
     {
         this.destination = destination;
         reachedDestination = false;
     }
-    
+
     public float getMovementSpeed()
     {
         return this.movementSpeed;

@@ -34,4 +34,9 @@ public class WaypointPedestrianNavigator : MonoBehaviour
             controller.SetDestination(currentWaypoint.GetPosition());
         }
     }
+
+    public void setCurrentWaypoint(Waypoint waypoint)
+    {
+        currentWaypoint = waypoint;
+    }
 }
