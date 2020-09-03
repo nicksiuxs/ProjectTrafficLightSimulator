@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class RandomSpawner : MonoBehaviour
 {
-    public GameObject car1, car2, car3, car4;
+    public GameObject car1, car2, car3, car4, car5, car6, car7, car8, car9, car10, car11, car12;
     public Waypoint waypoint1, waypoint2;
-    
+
     public float spawnRate = 2f;
-    public float height = 0.0340f;
+    public float height, h1, h2, h3, h4;
 
     float nextSpawn = 0f;
 
@@ -21,30 +21,47 @@ public class RandomSpawner : MonoBehaviour
 
         if (Time.time > nextSpawn && totalCars <= maxCars)
         {
-            whatToSpawn = Random.Range(1, 5);
+            whatToSpawn = Random.Range(1, 13);
             switch (whatToSpawn)
             {
                 case 1:
-                    Instantiate(car1, new Vector3(transform.position.x, height, transform.position.z), transform.rotation);
-                    car1.GetComponent<WaypointNavigator>().currentWaypoint = RandomWaypoint();
-                    totalCars++;
+                    spawnCar(car1, h1);
                     break;
                 case 2:
-                    Instantiate(car2, new Vector3(transform.position.x, height, transform.position.z), transform.rotation);
-                    car2.GetComponent<WaypointNavigator>().currentWaypoint = RandomWaypoint();
-                    totalCars++;
+                    spawnCar(car2, h1);
                     break;
                 case 3:
-                    Instantiate(car3, new Vector3(transform.position.x, height, transform.position.z), transform.rotation);
-                    car3.GetComponent<WaypointNavigator>().currentWaypoint = RandomWaypoint();
-                    totalCars++;
+                    spawnCar(car3, h1);
                     break;
                 case 4:
-                    Instantiate(car4, new Vector3(transform.position.x, height, transform.position.z), transform.rotation);
-                    car4.GetComponent<WaypointNavigator>().currentWaypoint = RandomWaypoint();
-                    totalCars++;
+                    spawnCar(car4, h2);
                     break;
                 case 5:
+                    spawnCar(car5, h2);
+                    break;
+                case 6:
+                    spawnCar(car6, h2);
+                    break;
+                case 7:
+                    spawnCar(car7, h3);
+                    break;
+                case 8:
+                    spawnCar(car8, h3);
+                    break;
+                case 9:
+                    spawnCar(car9, h3);
+                    break;
+                case 10:
+                    spawnCar(car10, h4);
+                    break;
+                case 11:
+                    spawnCar(car11, h4);
+                    break;
+                case 12:
+                    spawnCar(car12, h4);
+                    break;
+                case 13:
+                    Debug.Log("13");
                     break;
             }
 
@@ -55,8 +72,15 @@ public class RandomSpawner : MonoBehaviour
     Waypoint RandomWaypoint()
     {
         int random = Random.Range(1, 3);
-        //Debug.Log(random);
+        Debug.Log("Waypoint" + random);
 
         return (random == 1) ? waypoint1 : waypoint2;
+    }
+
+    public void spawnCar(GameObject car, float h)
+    {
+        Instantiate(car, new Vector3(transform.position.x, h, transform.position.z), transform.rotation);
+        car.GetComponent<WaypointNavigator>().currentWaypoint = RandomWaypoint();
+        totalCars++;
     }
 }

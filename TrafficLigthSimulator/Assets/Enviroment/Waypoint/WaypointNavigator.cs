@@ -11,6 +11,7 @@ public class WaypointNavigator : MonoBehaviour
     private void Awake() {
         controller = GetComponent<CharacterNavigationController>();
     }
+
       void Start()
     {
         // controller = GetComponent<CharacterNavigationController>();
@@ -32,6 +33,11 @@ public class WaypointNavigator : MonoBehaviour
                 currentWaypoint = currentWaypoint.previousWaypoint;
             }
             controller.SetDestination(currentWaypoint.GetPosition());
+        }
+
+        if(this.currentWaypoint == null)
+        {
+            Destroy(this);
         }
     }
 }
