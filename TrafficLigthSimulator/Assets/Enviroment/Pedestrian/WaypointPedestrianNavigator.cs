@@ -11,10 +11,11 @@ public class WaypointPedestrianNavigator : MonoBehaviour
     private void Awake()
     {
         controller = GetComponent<PedestrianController>();
+        controller.SetDestination(currentWaypoint.GetPosition());
     }
     void Start()
     {
-        controller.SetDestination(currentWaypoint.GetPosition());
+        // controller.SetDestination(currentWaypoint.GetPosition());
         direction = Mathf.RoundToInt(UnityEngine.Random.Range(0, 1));
     }
 

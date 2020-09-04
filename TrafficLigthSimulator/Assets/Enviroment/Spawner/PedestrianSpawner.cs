@@ -25,35 +25,34 @@ public class PedestrianSpawner : MonoBehaviour
     {
         if (Time.time > nextSpawn && totalPedestrian <= maxPedestrian)
         {
-            whatToSpawn = Random.Range(1, 5);
-            Debug.Log(nextSpawn);
-            totalPedestrian++;
-            spawnPedestrian(p1, w1, p1);
-            // switch (whatToSpawn)
-            // {
-            //     case 1:
-            //         randomCharacter(s1, w1);
-            //         break;
-            //     case 2:
-            //         randomCharacter(s2, w2);
-            //         break;
-            //     case 3:
-            //         randomCharacter(s3, w3);
-            //         break;
-            //     case 4:
-            //         randomCharacter(s4, w4);
-            //         break;
-            //     case 5:
-            //         break;
-            // }
+            whatToSpawn = Random.Range(2, 2);
+            Debug.Log(whatToSpawn + "punto spawn");
+
+            if (whatToSpawn == 1)
+            {
+                randomCharacter(s1, w1);
+                Debug.Log(s1, w1);
+            }
+            if (whatToSpawn == 2)
+            {
+                randomCharacter(s2, w2);
+            }
+            if (whatToSpawn == 3)
+            {
+                randomCharacter(s3, w3);
+            }
+            if (whatToSpawn == 4)
+            {
+                randomCharacter(s4, w4);
+            }
             nextSpawn = Time.time + spawnRate;
         }
     }
 
     public void spawnPedestrian(GameObject pedestrian, Waypoint waypoint, GameObject spawn)
     {
-        Instantiate(pedestrian, new Vector3(spawn.transform.position.x, spawn.transform.position.y, spawn.transform.position.z), spawn.transform.rotation);
-        pedestrian.GetComponent<WaypointPedestrianNavigator>().currentWaypoint = waypoint;
+        Instantiate(pedestrian, spawn.transform.position, spawn.transform.rotation);
+        pedestrian.GetComponent<WaypointPedestrianNavigator>().setCurrentWaypoint(waypoint);
         totalPedestrian++;
     }
 
