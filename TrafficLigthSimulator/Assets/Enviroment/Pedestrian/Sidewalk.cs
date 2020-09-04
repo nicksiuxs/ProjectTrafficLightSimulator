@@ -18,25 +18,24 @@ public class Sidewalk : MonoBehaviour
         if (other.CompareTag("Pedestrian"))
         {
             other.GetComponent<PedestrianController>().setMovementSpeed(0f);
+            random = Random.Range(1, 4);
             Debug.Log("Detenido");
         }
     }
 
     private void OnTriggerStay(Collider other)
     {
+        if (random == 1)
+        {
+            other.GetComponent<WaypointPedestrianNavigator>().setCurrentWaypoint(waypoint1);
+            other.GetComponent<PedestrianController>().setMovementSpeed(Random.Range(1.4f, 1.5f));
+        }
 
         if (tf1.GetComponent<TrafficLightController>().isRed && tf2.GetComponent<TrafficLightController>().isRed &&
         tf3.GetComponent<TrafficLightController>().isRed && tf4.GetComponent<TrafficLightController>().isRed)
         {
-            random = Random.Range(1, 4);
-            Debug.Log(random);
-
             switch (random)
             {
-                case 1:
-                    other.GetComponent<WaypointPedestrianNavigator>().setCurrentWaypoint(waypoint1);
-                    other.GetComponent<PedestrianController>().setMovementSpeed(Random.Range(1.4f, 1.5f));
-                    break;
                 case 2:
                     other.GetComponent<WaypointPedestrianNavigator>().setCurrentWaypoint(waypoint2);
                     other.GetComponent<PedestrianController>().setMovementSpeed(Random.Range(1.4f, 1.5f));
