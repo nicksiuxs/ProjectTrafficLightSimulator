@@ -72,8 +72,7 @@ public class RandomSpawner : MonoBehaviour
     Waypoint RandomWaypoint()
     {
         int random = Random.Range(1, 3);
-        Debug.Log("Waypoint" + random);
-
+        
         return (random == 1) ? waypoint1 : waypoint2;
     }
 

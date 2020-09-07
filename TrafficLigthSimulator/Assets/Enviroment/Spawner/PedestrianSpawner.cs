@@ -18,7 +18,6 @@ public class PedestrianSpawner : MonoBehaviour
     int totalPedestrian = 0;
     int whatToSpawn;
     public int maxPedestrian;
-    // GameObject pedestrian;
 
     // Update is called once per frame
     void Update()
