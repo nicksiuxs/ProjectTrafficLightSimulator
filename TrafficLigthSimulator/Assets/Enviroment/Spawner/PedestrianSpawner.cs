@@ -25,12 +25,10 @@ public class PedestrianSpawner : MonoBehaviour
         if (Time.time > nextSpawn && totalPedestrian <= maxPedestrian)
         {
             whatToSpawn = Random.Range(1, 5);
-            Debug.Log(whatToSpawn + "punto spawn");
 
             if (whatToSpawn == 1)
             {
                 randomCharacter(s1, w1);
-                Debug.Log(s1, w1);
             }
             if (whatToSpawn == 2)
             {
