@@ -79,8 +79,9 @@ public class RandomSpawner : MonoBehaviour
 
     public void spawnCar(GameObject car, float h)
     {
-        Instantiate(car, new Vector3(transform.position.x, h, transform.position.z), transform.rotation);
         car.GetComponent<WaypointNavigator>().currentWaypoint = RandomWaypoint();
+        Instantiate(car, new Vector3(transform.position.x, h, transform.position.z), transform.rotation);
+
         totalCars++;
     }
 }

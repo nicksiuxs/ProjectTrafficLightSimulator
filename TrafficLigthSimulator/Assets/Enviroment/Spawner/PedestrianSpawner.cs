@@ -25,7 +25,7 @@ public class PedestrianSpawner : MonoBehaviour
     {
         if (Time.time > nextSpawn && totalPedestrian <= maxPedestrian)
         {
-            whatToSpawn = Random.Range(2, 2);
+            whatToSpawn = Random.Range(1, 5);
             Debug.Log(whatToSpawn + "punto spawn");
 
             if (whatToSpawn == 1)
@@ -51,8 +51,9 @@ public class PedestrianSpawner : MonoBehaviour
 
     public void spawnPedestrian(GameObject pedestrian, Waypoint waypoint, GameObject spawn)
     {
-        Instantiate(pedestrian, spawn.transform.position, spawn.transform.rotation);
         pedestrian.GetComponent<WaypointPedestrianNavigator>().setCurrentWaypoint(waypoint);
+        Instantiate(pedestrian, spawn.transform.position, spawn.transform.rotation);
+
         totalPedestrian++;
     }
 
