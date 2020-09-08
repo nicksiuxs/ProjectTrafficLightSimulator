@@ -85,6 +85,7 @@ public class TrafficLightController : MonoBehaviour
         }
     }
 
+    //Permite activar o desactivar el semaforo
     public void setIsActive(bool isActive)
     {
         this.isActive = isActive;
@@ -95,4 +96,16 @@ public class TrafficLightController : MonoBehaviour
         return this.isActive;
     }
 
+    public void setDurationRed(float time)
+    {
+        durationRed = time;
+    }
+    public void setDurationYellow(float time)
+    {
+        durationYellow = time;
+    }
+    public void setDurationGreen(float time)
+    {
+        durationGreen = time;
+    }
 }
