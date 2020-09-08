@@ -42,8 +42,8 @@ public class CharacterNavigationController : MonoBehaviour
             velocity.y = 0;
             var velocityMargnitude = velocity.magnitude;
             velocity = velocity.normalized;
-            var fwDotProduct = Vector3.Dot(transform.forward, velocity);
-            var rightDotProduct = Vector3.Dot(transform.right, velocity);
+            // var fwDotProduct = Vector3.Dot(transform.forward, velocity);
+            // var rightDotProduct = Vector3.Dot(transform.right, velocity);
 
             // animator.SetFloat("Horizontal", rightDotProduct);
             // animator.SetFloat("Forward", fwDotProduct);
