@@ -13,7 +13,7 @@ public class Waypoint : MonoBehaviour {
         Vector3 minBound = transform.position + transform.right * width / 2f;
         Vector3 maxBound = transform.position - transform.right * width / 2f;
 
-        //Retorna una interpolación entre el minimo  limite
+        //Encontrar un punto en una fracción del camino a lo largo de una línea entre dos puntos finales 
         return Vector3.Lerp (minBound, maxBound, Random.Range (0f, 1f));
     }
 }
