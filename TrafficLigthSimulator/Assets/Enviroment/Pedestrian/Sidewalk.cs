@@ -25,27 +25,30 @@ public class Sidewalk : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (random == 1)
+        if (other.CompareTag("Pedestrian"))
         {
-            other.GetComponent<WaypointPedestrianNavigator>().setCurrentWaypoint(waypoint1);
-            other.GetComponent<PedestrianController>().setMovementSpeed(Random.Range(1.4f, 1.5f));
-        }
-
-        if (tf1.GetComponent<TrafficLightController>().isRed && tf2.GetComponent<TrafficLightController>().isRed &&
-        tf3.GetComponent<TrafficLightController>().isRed && tf4.GetComponent<TrafficLightController>().isRed)
-        {
-            switch (random)
+            if (random == 1)
             {
-                case 2:
-                    other.GetComponent<WaypointPedestrianNavigator>().setCurrentWaypoint(waypoint2);
-                    other.GetComponent<PedestrianController>().setMovementSpeed(Random.Range(1.4f, 1.5f));
-                    break;
-                case 3:
-                    other.GetComponent<WaypointPedestrianNavigator>().setCurrentWaypoint(waypoint3);
-                    other.GetComponent<PedestrianController>().setMovementSpeed(Random.Range(1.4f, 1.5f));
-                    break;
-                case 4:
-                    break;
+                other.GetComponent<WaypointPedestrianNavigator>().setCurrentWaypoint(waypoint1);
+                other.GetComponent<PedestrianController>().setMovementSpeed(Random.Range(1.4f, 1.5f));
+            }
+
+            if (tf1.GetComponent<TrafficLightController>().isRed && tf2.GetComponent<TrafficLightController>().isRed &&
+            tf3.GetComponent<TrafficLightController>().isRed && tf4.GetComponent<TrafficLightController>().isRed)
+            {
+                switch (random)
+                {
+                    case 2:
+                        other.GetComponent<WaypointPedestrianNavigator>().setCurrentWaypoint(waypoint2);
+                        other.GetComponent<PedestrianController>().setMovementSpeed(Random.Range(1.4f, 1.5f));
+                        break;
+                    case 3:
+                        other.GetComponent<WaypointPedestrianNavigator>().setCurrentWaypoint(waypoint3);
+                        other.GetComponent<PedestrianController>().setMovementSpeed(Random.Range(1.4f, 1.5f));
+                        break;
+                    case 4:
+                        break;
+                }
             }
         }
     }
